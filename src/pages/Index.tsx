@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -55,7 +54,7 @@ const Index = () => {
           </div>
           
           <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-pulse">
-            GenPredict
+            GeneLink
           </h1>
           
           <p className="text-xl md:text-2xl mb-4 text-gray-300 font-light">
@@ -144,14 +143,14 @@ const Index = () => {
       <section className="py-20 px-4 bg-black/20 backdrop-blur-sm">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-            About GenPredict
+            About GeneLink
           </h2>
           
           <div className="space-y-8 text-lg leading-relaxed text-gray-300">
             <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
               <h3 className="text-2xl font-semibold mb-4 text-cyan-400">Revolutionary Technology</h3>
               <p>
-                GenPredict represents a breakthrough in personalized medicine, combining cutting-edge machine learning 
+                GeneLink represents a breakthrough in personalized medicine, combining cutting-edge machine learning 
                 algorithms with comprehensive genomic databases. Our platform analyzes genetic variants across multiple 
                 chromosomes to predict disease susceptibility with remarkable accuracy.
               </p>
@@ -160,7 +159,7 @@ const Index = () => {
             <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
               <h3 className="text-2xl font-semibold mb-4 text-purple-400">Scientific Foundation</h3>
               <p>
-                Built on peer-reviewed research and validated against large-scale population studies, GenPredict 
+                Built on peer-reviewed research and validated against large-scale population studies, GeneLink 
                 incorporates data from over 100,000 individuals across diverse ethnic backgrounds. Our models 
                 are continuously updated with the latest genomic discoveries and clinical findings.
               </p>
@@ -178,7 +177,7 @@ const Index = () => {
             <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
               <h3 className="text-2xl font-semibold mb-4 text-cyan-400">Clinical Applications</h3>
               <p>
-                GenPredict supports healthcare professionals in making informed decisions about patient care. 
+                GeneLink supports healthcare professionals in making informed decisions about patient care. 
                 From cancer screening protocols to cardiovascular risk assessment, our predictions help enable 
                 proactive medical interventions and personalized treatment strategies.
               </p>
@@ -203,14 +202,14 @@ const Index = () => {
           <div className="flex justify-center items-center space-x-2 mb-4">
             <Dna size={32} className="text-cyan-400" />
             <span className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-              GenPredict
+              GeneLink
             </span>
           </div>
           <p className="text-gray-400 mb-4">
             Advancing personalized medicine through AI-powered genomic analysis
           </p>
           <p className="text-sm text-gray-500">
-            © 2025 GenPredict. All rights reserved. | Made with precision and care.
+            © 2025 GeneLink. All rights reserved. | Made with precision and care.
           </p>
         </div>
       </footer>
